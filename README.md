@@ -36,12 +36,12 @@ O sistema foi dividido em módulos, cada um implementando uma estrutura de dados
   Estrutura `Equipamento` e funções para gerenciar atributos de armas, armaduras e itens.
 
 * **`missao.c` / `missao.h`**
-  Estrutura e funções para cadastrar e acompanhar missões (integra informações de tartarugas, vilões e arsenal).
+  Estrutura e funções para cadastrar e acompanhar missões (também utilizando fila de prioridade para missões com maior nivel de ameaça).
 
 
 
 Cada módulo é independente internamente, mas pode interagir quando necessário.
-Por exemplo: uma missão pode incluir vilões cadastrados na árvore, tartarugas da lista e equipamentos da fila, etc.
+Por exemplo: uma missão pode incluir tartarugas da lista e equipamentos da fila, etc.
 
 ---
 
