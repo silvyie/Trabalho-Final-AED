@@ -49,15 +49,15 @@ Por exemplo: uma missão pode incluir tartarugas da lista e equipamentos da fila
 
 * **Equipe (Tartarugas)**
 
-  * Cadastrar, listar
+  * Cadastrar, listar tartarugas com status e nivel.
 * **Vilões**
 
-  * Cadastrar, listar em ordem e remover
+  * Cadastrar, listar em ordem com nivel de habilidade, ponto fraco e remover
 * **Arsenal**
 
-  * Cadastrar e listar equipamentos, com tipo e atributos
+  * Cadastrar e listar equipamentos, com tipo e atributos.
 * **Missões**
 
   * Criar missão, associar equipe.
-  * Listar missões registradas
+  * Listar missões registradas com vitória, vitória com danos ou derrota e número de feridos.
 
